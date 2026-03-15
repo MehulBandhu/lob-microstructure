@@ -53,9 +53,8 @@ lob-microstructure/
     research/                   # Analysis notebooks
         research_notebook.ipynb         # All statistical tests and robustness checks
         research_figures_gru.ipynb      # Publication figures and GRU training
-    proposal/
-        proposal.pdf            # Research proposal
-        proposal.tex            # LaTeX source
+
+    Research Report.pdf            # Research proposal and report with all findings and analyses
 ```
 
 ## Data
