@@ -1,6 +1,6 @@
 # Participation-Weighted Fair Value in Limit Order Books
 
-The standard microprice weights bid and ask sides by order **quantity**. This project shows that weighting by order **count** (the number of independent orders) produces a 30 to 38% more accurate fair value estimator, validated across 185 instruments with p < 0.0001.
+The standard microprice weights bid and ask sides by order quantity. This project shows that weighting by order **count** (the number of independent orders) produces a 30 to 38% more accurate fair value estimator, validated across 185 instruments with p < 0.0001.
 
 The intuition: 10,000 shares on the bid from 200 independent orders represents stronger consensus about fair value than 10,000 shares from 2 large orders. Count captures participation diversity. Quantity does not.
 
